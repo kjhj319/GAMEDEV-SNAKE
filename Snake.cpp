@@ -125,7 +125,7 @@ boolean Snake::checkGoOut()
 {
 	auto positionX = head->getSprite()->getPosition().x;
 	auto positionY = head->getSprite()->getPosition().y;
-	if (positionX < 0 || positionX > 480 || positionY < 0 || positionY > 480)
+	if (positionX < 0 || positionX > 500 || positionY < 0 || positionY > 500)
 		return true;
 	else
 		return false;
